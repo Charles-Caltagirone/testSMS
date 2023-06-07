@@ -7,9 +7,9 @@ SMSBOX met à disposition de ses clients un service de dépôts de messages voca
 Ce service est utilisé principalement pour la confirmation de rendez-vous, d'invitations, etc ...
 
 L'objectif ici est de créer une interface web permettant d'effectuer les actions suivantes :
-    - Enregistrer un fichier sonore en local.
-    - Importer via l'API un fichier sonore enregistré en local (ressource import).
-    - Déposer un fichier sonore sur un répondeur via l'API (ressource send).
+<br/> - Enregistrer un fichier sonore en local.
+<br/> - Importer via l'API un fichier sonore enregistré en local (ressource import).
+<br/> - Déposer un fichier sonore sur un répondeur via l'API (ressource send).
  
 ## Table des matières
 
