@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST SMSBOX</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/record.js" defer></script> <!-- 'defer' permet de placer le script dans le head mais tout en l'exécutant après -->
+    <script type="module" src="./js/main.js" defer></script> <!-- 'type module' permet de faire communiquer ce script avec un autre -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="entete">
+            <img src="./assets/logo.png" alt="" srcset="">
+        </div>
+        <div class="rubrique" id="recordAudio">
+            <h2>1 - Effectuer un nouvel enregistrement :</h2>
+            <div class="display"> <!-- lecteur audio -->
+            </div>
+            <div class="controllers"> <!-- button pour démarrer, stopper ou recommencer l'audio -->
+            </div>
+        </div>
+        <div class="rubrique" id="audioServer">
+            <h2>2 - Choisir un audio à envoyer au serveur :</h2>
+            <!-- <label for="fileServer">Audio à envoyer (max. 5 Mo) :</label> -->
+            <input type="file" id="fileServer" name="fileServer">
+            <button type="button" id="submitServer" name="submitServer">Envoyer au server</button>
+        </div>
+        <div class="rubrique" id="audioClient">
+            <h2>3 - Choisir un audio à envoyer au client :</h2>
+            <!-- <label for="telNumber"> id de l'audio : </label> -->
+            <input id="id_file" name="id_file" type="text" placeholder="id_file"/>
+            <!-- <label for="telNumber"> Numéro de téléphone : </label> -->
+            <input id="telNumber" name="telNumber" type="tel" placeholder="06xxxxxxxx"/>
+            <span class="validity"></span>
+            <div>
+                <button type="button" id="submitClient" name="submitClient">Envoyer au client</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+</body>
+
+</html>
