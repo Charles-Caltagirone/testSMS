@@ -32,7 +32,7 @@ Aperçu de l'application
 
 Modélisation des étapes entre la machine locale, le serveur et le client.
 
-![Screenshot](process.png)
+![Screenshot](process.jpg)
 
 ## Prérequis
 
