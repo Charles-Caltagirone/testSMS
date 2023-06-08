@@ -28,6 +28,12 @@ Aperçu de l'application
 
 ![Screenshot](apercu.png)
 
+## Processus de fonctionnement
+
+Modélisation des étapes entre la machine locale, le serveur et le client.
+
+![Screenshot](process.png)
+
 ## Prérequis
 
 Besoin d'un éditeur de code (VS code, Notepad++, NetBeans, etc...), de Git, ansi qu'un serveur local (WampServer par exemple).
